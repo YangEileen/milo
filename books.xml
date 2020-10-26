@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="mycss.css" type="text/css"?>
+<books>
+<heading>卡通書房</heading>
+<book>
+<title>我們這一家</title>
+<author>日本漫畫家螻榮子</author>
+<publisher>台灣日販</publisher>
+<price>$100</price>
+</book>
+
+<book>
+<title>蠟筆小新</title>
+<author>日本漫畫家臼井儀人</author>
+<publisher>雙葉社月刊Manga Town</publisher>
+<price>$100</price>
+</book>
+</books>
