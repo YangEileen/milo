@@ -1,0 +1,36 @@
+<! DOCTYPE html>
+<html lang="tw">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+p{
+	color:blue;
+	margin:5px;
+	cursor:pointer;
+}
+
+p:hover{
+	background:yellow;
+}
+
+</style>
+</head>
+<body>
+
+<p>書籍介紹</p>
+
+<div class="product" align="center">
+
+<h1>中文熱銷書籍</h1>
+<img src="001.jpg">
+</div>
+<script>
+$("p").click(function(){
+	$(".product").slideToggle();
+});
+</script>
+</body>
+</html>
