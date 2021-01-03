@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+.full-screen{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:10;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
+	p{
+		color:purple;
+		margin:5px;
+		cursor:pointer;
+	}
+	p:hover{
+		background:yellow;
+	}
+div {
+    background: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<p>本月特賣！每個月3號更新!</p>
+<div class="full-screen" align="center">
+<h1>可可豆腐冰!</h1>
+<img src="http://120.105.150.46/hakkaonline/u0757003/wp-content/uploads/sites/100/2020/12/%E5%8F%AF%E5%8F%AF.jpg"width="750"height="500">
+<center><br>可可做的豆腐冰，搭配黑糖珍珠，蹦出絕妙好滋味！</br>
+</div>
+<script>
+$("p").click(function(){
+	$(".full-screen").slideToggle();
+});
+$("img").click(function(){
+	$(".full-screen").slideToggle();
+});
+</script>
+</body>
+</html>
+
+
+<footer>
+<p class="pagetop"><a href="https://846285121550559454.weebly.com/">回到首頁</a></p>
+<p class="copyright"><small>&copy;CopyRight2020文觀系</small></p>
+</footer>
+</body>
+</html>
